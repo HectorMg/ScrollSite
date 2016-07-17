@@ -1,0 +1,26 @@
+/*Import twitter bootstrap*/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$white: #FFF;
+$black: #222;
+
+.section{
+  height: 100vh;
+  color: $black;
+  background-color: $white;
+  padding: 30px 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+.section-alternate{
+  background-color: $black;
+  color: $white;
+}
+
+.section-container{
+  height: 100%;
+}
+#landing-section{
+  padding-top: 80px;
+}
+
