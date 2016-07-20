@@ -4,7 +4,6 @@
 
 $white: #FFF;
 $black: #222;
-
 .section{
   height: 100vh;
   color: $black;
@@ -16,11 +15,37 @@ $black: #222;
   background-color: $black;
   color: $white;
 }
-
 .section-container{
   height: 100%;
+  text-align: center;
 }
+
+
 #landing-section{
-  padding-top: 80px;
+  padding-top: 120px;
+  text-align: center;
+
+  h1{
+    font-size: 4em;
+  }
+
+  p{
+    font-size: 1.1em;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+.landing-button-wrapper{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.social-media-icon-bar{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 90%;
 }
 

@@ -1,0 +1,43 @@
+$white: #FFF;
+$black: #222;
+
+.button{
+  padding: 10px 20px;
+  border: 1px solid $black;
+  border-radius: 50px;
+  color: $black;
+  font-family: "Oxygen", sans-serif;
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+  &:hover, &:focus, &:active{
+    color: $black;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+  }
+}
+
+.button-sm{
+  font-size: 1em;
+  width: 50%;
+  &:hover, &:focus, &:active{
+    font-size: 1.2em;
+  }
+}
+
+.button-md{
+  font-size: 1.5em;
+  width: 75%;
+  &:hover, &:focus, &:active{
+    font-size: 1.7em;
+  }
+}
+
+.button-lg{
+  font-size: 1.8em;
+  width: 100%;
+  &:hover, &:focus, &:active{
+    font-size: 2em;
+  }
+}
