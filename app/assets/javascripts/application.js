@@ -14,4 +14,6 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
+//= require scrollIt
+//= require scrollNavigation
 //= require_tree .
